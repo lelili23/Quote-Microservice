@@ -14,15 +14,18 @@ To request data from the microservice, make an HTTP GET request to the following
 `http://localhost:3001/randomQuote`
 
 Example call in Python:
+
 ![Example Request Call](calls/request.png)
 
 ### 2. Receiving Data
 The microservice responds with a quote in JSON format({"quote": "..."})
 
 Example call in Python:
+
 ![Example Recieve Call](calls/receive.png)
 
 Response:
+
 ![Example Response](calls/response.png)
 
 ### 3. UML sequence diagram
